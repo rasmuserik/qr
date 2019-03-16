@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/icon.png"/><link rel="icon" href="/icon.png"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><title>QR-code parser</title></head><body>
+<style>
+body {
+  font-family: sans-serif;
+}
+#video {
+  max-height: 90%;
+  max-width: 100%;
+}
+#canvas {
+  width: 0;
+  height: 0;
+}
+</style>
+<center>
+  <p>
+Simple utility for scanning a QR-code, and redirecting to it, if it is an url.
+  </p>
+<code id=qrdata></code>
+<video id=video></video>
+<canvas id=canvas></canvas>
+</center>
+<script src=jsQR.min.js></script>
+<script src=scan.js></script>
+</body></html>
